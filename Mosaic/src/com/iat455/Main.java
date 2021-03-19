@@ -25,8 +25,8 @@ public class Main extends Frame {
     // Constructor
     public Main() {
         try {
-            sourceImage = ImageIO.read(new File("SourceSample.jpeg"));
-            littleImageSample = ImageIO.read(new File ("LittleSample.jpg"));
+            sourceImage = ImageIO.read(new File("img/SourceSample.jpeg"));
+            littleImageSample = ImageIO.read(new File ("img/LittleSample.jpg"));
         } catch (Exception e) {
             System.out.println("Cannot load the provided image");
         }
